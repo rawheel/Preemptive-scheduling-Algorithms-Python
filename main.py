@@ -38,7 +38,7 @@ processes = {'p1':53,'p2':17,'p3':68,'p4':24}
 quantumTime = 20
 PreemptiveObject.RoundRobin(processes,quantumTime)
 #Accessing TimeSequence Attribute from Round Robin Algorithm
-print(PreemptiveObject.RoundRobin(processes,quantumTime)['TimeSequence'])
+print("Time sequence Attribute: ",PreemptiveObject.RoundRobin(processes,quantumTime)['TimeSequence'])
 
 #calling Shortest Job First from Preemptive Algorithm Object
 BurstTime = {3:6,2:8,1:7,4:3}
