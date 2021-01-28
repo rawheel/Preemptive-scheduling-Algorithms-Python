@@ -35,15 +35,12 @@ def round_robin(process, quantumTime):
             a = run(a)
         else:
             break
-    '''print()
-    print(f'Empty Sequence: {final_lst}')
-    print(f'Final Sequence:{t_lst}')
-    print(f'Time Sequence: {timeQueue}')'''
-    return {'EmtpySequence':final_lst,'Final Sequence':t_lst,'TimeSequence':timeQueue}
+
+    return {'EmtpySequence':final_lst,'FinalSequence':t_lst,'TimeSequence':timeQueue}
 
 
-process = {'p1':53,'p2':17,'p3':68,'p4':24}
+#process = {'p1':53,'p2':17,'p3':68,'p4':24}
 #process = {'p1': 24, 'p2': 3, 'p3': 3}
-q_time = 20
+#q_time = 20
 
-round_robin(process, q_time)
+#round_robin(process, q_time)

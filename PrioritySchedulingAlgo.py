@@ -20,5 +20,5 @@ def PriorityScheduling(BurstTime):
     avgWaitingTime = sum(waitingTime) / len(waitingTime)
     avgArrivalTime = sum(turnAroundTime)/len(turnAroundTime)
     return {'SortedProcess':SortedBurstTime,'waitingTime':waitTime,'avgWaitingTime':avgWaitingTime,'avgArrivalTime':avgArrivalTime,}
-BurstTime = [[4, 24], [1, 68], [3, 17], [2, 53]]
-[print(key,value) for key,value in PriorityScheduling(BurstTime).items()]
+#BurstTime = [[4, 24], [1, 68], [3, 17], [2, 53]]
+#[print(key,value) for key,value in PriorityScheduling(BurstTime).items()]
